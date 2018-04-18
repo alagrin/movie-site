@@ -1,7 +1,7 @@
 import media  # import media file/module containing Movie class
 import fresh_tomatoes
 
-#creating instances of movies based on Movie class
+# Creating instances of movies based on Movie class
 die_hard = media.Movie("Die Hard",
                        "https://upload.wikimedia.org/wikipedia/en/7/7e/Die_"
                        "hard.jpg",
@@ -37,5 +37,5 @@ forgetting_sarah_marshall = media.Movie("Forgetting Sarah Marshall",
 movies = [die_hard, analyze_this, alien, get_out,
           davinci_code, forgetting_sarah_marshall]
 
-fresh_tomatoes.open_movies_page(movies) 
+fresh_tomatoes.open_movies_page(movies)
 # Runs function to open movie page/HTML in browser
